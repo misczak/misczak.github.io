@@ -75,7 +75,7 @@ We've entered the Secret Access Key, but we cannot directly access it via the Re
 
 We have one more value to set up before we're done. Click on **Create New Value** again, and this time enter `Region` as the value name. Leave Type as `Value` and Add Content as `Custom Content`. In the content field, enter the AWS region where you set up your S3 bucket and SSM parameter, again wrapped in double quotations. Then click **Save Draft**. 
 
-You may ask why we bothered with SSM at all to store the parameter of the S3 bucket name. It is true that we could also store the bucket name here in Realm's values; however, for the scope of the post we will assume the applciation environment has already been using SSM for parameters such as these, and therefore it will be less work for us to leave it that way. 
+You may ask why we bothered with SSM at all to store the parameter of the S3 bucket name. It is true that we could also store the bucket name here in Realm's values; however, for the scope of the post we will assume the application environment has already been using SSM for parameters such as these, and therefore it will be less work for us to leave it that way. 
 
 ### Create Realm Functions
 
