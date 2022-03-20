@@ -9,6 +9,7 @@ img_path: /assets/img/posts/20220320
 toc: true
 # math: true
 ---
+Disclaimer: I am a MongoDB employee. 
 
 Most developers by now are familiar with MongoDB, a NoSQL database that stores data as documents instead of rows. MongoDB's fully managed service product, MongoDB Atlas, comes with MongoDB Realm, which is a set of services that help facilitate mobile and web development by providing a scalable, serverless backend for your application. Realm offers a lot of services (more than we can cover in just this post), but today I wanted to focus on how to use two of them in tandem to help connect a MongoDB Atlas database into a distributed, event driven architecture that can be built on AWS.  
 
