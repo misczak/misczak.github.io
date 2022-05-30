@@ -6,8 +6,7 @@ categories: [Development, Hardware]
 tags: [MongoDB, Raspberry Pi, Python]
 pin: false
 img_path: /assets/img/posts/20220530
-toc: true
-# math: true
+#toc: true
 ---
 Disclaimer: I am a MongoDB employee. 
 
@@ -31,6 +30,8 @@ That's not an overwhelming number of components, but it's still a bunch of piece
 
 Instead, I found [this DHT22 sensor](https://thepihut.com/products/dht22-temperature-humidity-sensor) that comes with a handy 3-pin wire that you can plug directly into the Pi. DOUT goes to GPIO (pin 4) on the Pi, VCC goes to pin 1 on the Pi, and GND goes to pin 6 on the Pi. Using the case that came with my Pi from CanaKit, I was able to enclose the Pi and just had the wires escape out the top to the sensor, greatly cleaning up the overall appearance. 
 
+![The enclosed Raspberry Pi and DHT22 sensor](rpi.png)
+
 ## Booting the Pi
 
 This was by far the easiest part of this project. The [Raspberry Pi OS](https://www.raspberrypi.com/software/) (formerly known as Raspbian) gives you an easy to use Linux OS. Better yet, the [Imager utility](https://www.youtube.com/watch?v=ntaXWS8Lk34) helps you set up your install so it will work exactly the way you want right out of the box. You can setup a user for SSH so once it powers up, you can connect directly to it in a headless fashion. Once you have your Pi booted up and are able to SSH into it, the real work begins.  
@@ -43,7 +44,13 @@ Once connected to your cluster through `mongosh`, you'll want to create the time
 
 ```bash
 use ts
-db.createCollection("homeclimate", { timeseries: { timeField: "timestamp", metaField: "metadata", granularity: "seconds" }, expireAfterSeconds: 604800 } )
+db.createCollection("homeclimate", { 
+    timeseries: { 
+        timeField: "timestamp", 
+        metaField: "metadata", 
+        granularity: "seconds" 
+    }, expireAfterSeconds: 604800 
+    } )
 ```
 The above command does the following:
 
@@ -96,7 +103,8 @@ while True:
         time.sleep(10)
 
     except RuntimeError as error:
-        # Errors will happen but need to keep going. Can make up for missed readings in the Time Series collection
+        # Errors will happen but need to keep going. Can make up for missed readings 
+        # in the Time Series collection
         print(error.args[0])
         time.sleep(2.0)
         continue
@@ -129,7 +137,7 @@ Now that the time series collection shows up in the Data Sources list, look to t
 
 Inside the Aggregation Pipeline Edit modal that appears, paste in the following pipeline:
 
-```json
+```js
 [
   {$setWindowFields: {
     partitionBy: "$metadata.sensorId",

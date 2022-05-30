@@ -6,8 +6,7 @@ categories: [Development]
 tags: [MongoDB, AWS, NodeJS]
 pin: false
 img_path: /assets/img/posts/20220320
-toc: true
-# math: true
+# toc: true
 ---
 Disclaimer: I am a MongoDB employee. 
 
