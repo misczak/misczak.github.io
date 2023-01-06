@@ -26,7 +26,7 @@
   weight = 30
 
 [[main]]
-  name = "Archives"
+  name = "Archive"
   pageRef = "archive"
   weight = 40
 
