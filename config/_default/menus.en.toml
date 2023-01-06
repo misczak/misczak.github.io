@@ -27,7 +27,7 @@
 
 [[main]]
   name = "Archives"
-  pageRef = "posts/archive"
+  pageRef = "archive"
   weight = 40
 
 [[main]]
