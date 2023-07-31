@@ -98,7 +98,7 @@ Because we have used CloudFormation to deploy the same role to every account, it
 
 Stepping back and looking at the complete solution, it can be summarized by this diagram:
 
-![A simple diagram showing the flow of events through the solution](images/autotagdiagram.png)
+[![A simple diagram showing the flow of events through the solution](images/autotagdiagram.png)](images/autotagdiagram.png)
 
 
 ## Applying the Service Control Policy
@@ -141,7 +141,7 @@ resource "aws_organizations_policy_attachment" "managed_ou"{
 
 Once everything was in place and enabled, tags began being automatically applied to our EC2 instances as they were created. 
 
-![An example of the dateCreated and owner tags applied to an instance](images/tagscreated.png)
+[![An example of the dateCreated and owner tags applied to an instance](images/tagscreated.png)](images/tagscreated.png)
 
 Through an extensive testing and monitoring process, I learned a few things and wanted to point out some additional things to keep in mind:
 
