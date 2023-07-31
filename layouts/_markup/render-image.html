@@ -1,3 +1,5 @@
+<!--layouts/_default/_markup/render-image.html-->
+
 <p class="md__image">
     <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}"{{ end }} />
   </p>
