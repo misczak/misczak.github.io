@@ -33,7 +33,7 @@ Finally, I found a [post from the AWS Cloud Operations & Migrations blog](https:
 ## The Auto Tagging Solution, Explained
 In case you don't want to click through to the AWS blog post itself, I'll briefly explain the solution. When a principal starts an EC2 instance in AWS, a `RunInstances` event is generated and logged by CloudTrail. These events contain a variety of information, including the time of the event, the principal that triggered it, the account that the instance was created in, and the region that the instance was created in. All of this information is extremely useful to capture. 
 
-![An example of a CloudTrail event for RunInstances](images/cloudtrailevent.png)
+[![An example of a CloudTrail event for RunInstances](images/cloudtrailevent.png)](images/cloudtrailevent.png)
 
 A service called AWS EventBridge (formerly CloudWatch Events) allows for rules to be created that can monitor CloudTrail for specific events, and then perform some action based on the event. The auto tagging solution includes a rule that monitors for the `RunInstances` events, and then sends the information from a captured event to an AWS Lambda function. This Lambda function reads the information in the event (mostly the instance ID and principal information), and then uses that information to apply a tag to the instance with the information about the principal. 
 
