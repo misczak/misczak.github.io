@@ -13,4 +13,4 @@ I've taken on a number of different roles in my career, including in identity ma
 
 Feel free to <a href="/contact">reach out</a> if you would like to say hello.
 
-[GCP Certified Professional Badge](images/gcpcert.png)
+![GCP Certified Professional Badge](images/gcpcert.png)
