@@ -11,4 +11,6 @@ I'm John Misczak and this is my blog where I (infrequently) write about some stu
 
 I've taken on a number of different roles in my career, including in identity management, penetration testing, application security, threat modeling, and cloud security. I've even dipped my toe into the sales world for a bit to help customers build cool stuff. Currently, my focus is on helping teams build applications and services securely in public cloud environments.
 
-I always enjoy talking to new people so please <a href="/contact">reach out</a> if you would like to say hello.
+Feel free to <a href="/contact">reach out</a> if you would like to say hello.
+
+[![GCP Certified Professional Badge](images/gcpcert.png)](images/gcpcert.png)
