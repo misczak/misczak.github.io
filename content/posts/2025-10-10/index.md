@@ -75,5 +75,4 @@ The fact that André waited so long to acknowledge this change in credentials an
 
 ## Conclusion
 
-All in all, this whole incident and the write-ups that have come out of it do not reflect well on the Ruby community, and would very much shake my confidence in the ability of Ruby Central to be good stewards of RubyGems moving forward. 
-Recently, Ruby Central, the non-profit responsible for maintaining the RubyGems package manager, suffered a security incident where they temporarily lost control of their AWS account. They have since [published a post-mortem](https://rubycentral.org/news/rubygems-org-aws-root-access-event-september-2025/) of this event that is ostensibly aimed at putting their community's minds at ease. Unfortunately, it had the opposite effect on me, causing me to come away with more questions than  answers. 
+All in all, this whole incident and the write-ups that have come out of it do not reflect well on the Ruby community, and would very much shake my confidence in the ability of Ruby Central to be good stewards of RubyGems moving forward.
