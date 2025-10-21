@@ -14,6 +14,7 @@ tags:
 - Security
 - Networking
 title: 'MongoDB World 2022 Talk: Look Ma, No Public IP!'
+url: posts/mongodb-world-2022-talk-look-ma-no-public-ip
 ---
 
 <style type="text/css" rel="stylesheet">

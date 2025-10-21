@@ -10,6 +10,7 @@ tags:
 - AWS
 - NodeJS
 title: Building Event Driven Experiences with MongoDB Realm and AWS
+url: posts/building-event-driven-experiences-with-mongodb-realm-and-aws
 showTableOfContents: true
 ---
 Disclaimer: I am a MongoDB employee. 

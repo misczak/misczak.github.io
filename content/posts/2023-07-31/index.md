@@ -8,6 +8,7 @@ pin: false
 tags:
 - AWS
 title: Automatically tagging resources in AWS with Owner Information
+url: posts/automatically-tagging-resources-in-aws-with-owner-information
 showTableOfContents: true
 ---
 

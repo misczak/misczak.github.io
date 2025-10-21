@@ -8,6 +8,7 @@ pin: false
 tags:
 - AWS
 title: Recapping the Biggest Pre:Invent Announcements
+url: posts/recapping-the-biggest-preinvent-announcements
 showTableOfContents: true
 ---
 

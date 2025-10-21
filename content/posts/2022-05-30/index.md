@@ -12,6 +12,7 @@ tags:
 - Raspberry Pi
 - Python
 title: Tracking Temperature and Humidity at Home with Time Series Data
+url: posts/tracking-temperature-and-humidity-at-home-with-time-series-data
 showTableOfContents: true
 ---
 Disclaimer: I am a MongoDB employee. 

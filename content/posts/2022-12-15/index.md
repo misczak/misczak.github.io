@@ -11,6 +11,7 @@ tags:
 - Security
 - Networking
 title: AWS re:Invent 2022 Security Recap
+url: posts/aws-reinvent-2022-security-recap
 showTableOfContents: true
 ---
 

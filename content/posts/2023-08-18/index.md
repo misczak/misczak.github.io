@@ -8,6 +8,7 @@ pin: false
 tags:
 - GCP
 title: Google's Professional Cloud Security Engineer Certification
+url: posts/googles-professional-cloud-security-engineer-certification
 showTableOfContents: true
 ---
 

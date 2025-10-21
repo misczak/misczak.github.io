@@ -9,6 +9,7 @@ tags:
 - AWS
 - GCP
 title: Building on GCP
+url: posts/building-on-gcp
 showTableOfContents: true
 ---
 

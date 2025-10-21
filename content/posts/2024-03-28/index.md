@@ -8,6 +8,7 @@ pin: false
 tags:
 - AWS
 title: An Easier Way to Enable IMDS Defaults Across All Regions
+url: posts/an-easier-way-to-enable-imds-defaults-across-all-regions
 showTableOfContents: true
 ---
 
