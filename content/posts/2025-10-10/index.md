@@ -10,6 +10,7 @@ tags:
 - Ruby
 - Programming
 title: About the Ruby Central Security Incident
+url: posts/about-the-ruby-central-security-incident
 showTableOfContents: true
 ---
 
