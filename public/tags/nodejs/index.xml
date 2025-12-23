@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NodeJS on /misczak</title>
+    <link>//localhost:1313/tags/nodejs/</link>
+    <description>Recent content in NodeJS on /misczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 John Misczak</copyright>
+    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building Event Driven Experiences with MongoDB Realm and AWS</title>
+      <link>//localhost:1313/posts/building-event-driven-experiences-with-mongodb-realm-and-aws/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/building-event-driven-experiences-with-mongodb-realm-and-aws/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/building-event-driven-experiences-with-mongodb-realm-and-aws/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

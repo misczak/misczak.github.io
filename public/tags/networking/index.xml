@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on /misczak</title>
+    <link>//localhost:1313/tags/networking/</link>
+    <description>Recent content in Networking on /misczak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 John Misczak</copyright>
+    <lastBuildDate>Thu, 15 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AWS re:Invent 2022 Security Recap</title>
+      <link>//localhost:1313/posts/aws-reinvent-2022-security-recap/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/aws-reinvent-2022-security-recap/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/aws-reinvent-2022-security-recap/featured.png" />
+    </item>
+    
+    <item>
+      <title>MongoDB World 2022 Talk: Look Ma, No Public IP!</title>
+      <link>//localhost:1313/posts/mongodb-world-2022-talk-look-ma-no-public-ip/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/mongodb-world-2022-talk-look-ma-no-public-ip/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/mongodb-world-2022-talk-look-ma-no-public-ip/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
