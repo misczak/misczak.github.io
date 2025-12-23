@@ -5,7 +5,7 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 enableEmoji = true
-baseURL = "misczak.github.io"
+baseURL = "https://misczak.github.io"
 
 [pagination]
 pagerSize = 100
