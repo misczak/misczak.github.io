@@ -12,7 +12,7 @@ description = "Thoughts and musings on information security, application develop
 
 dateFormat = "January 2 2006"
 
-[author]
+[params.author]
   name = "John Misczak"
   image = "img/author.jpg"
   headline = "Thoughts and musings on information security, application development, and other tech news."
