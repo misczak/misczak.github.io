@@ -1,5 +1,6 @@
 ---
 showDate: false
+showWordCount: false
 showReadingTime: false
 ---
 
