@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "/misczak"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "I'm John Misczak, a security engineer, dad, and long tenured nerd from Philadelphia. I write about security, technology news, and anything else that comes to mind."
+
+[[params.author.links]]
+bluesky = "https://bsky.app/profile/misczak.com"
+
+[[params.author.links]]
+github = "https://github.com/misczak"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/johnmisczak/"
+
+["params.author"]
+name = "John Misczak"
+image = "author.jpg"
+bio = "Security Engineer in Philadelphia"
+headline = "Security Engineer "

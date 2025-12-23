@@ -1,0 +1,17 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Blog"
+pageRef = "posts"
+identifier = "EEvGn20Aum"
+weight = 1
+
+[[main]]
+name = "About"
+pageRef = "about"
+weight = 10
+
+
+[[footer]]
+none = "none"
