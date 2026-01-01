@@ -70,4 +70,4 @@ While I continue to use a Macbook Pro for my day job and as a personal laptop, I
 So before the holidays last month, I installed [CachyOS](https://cachyos.org/) on my desktop and haven't looked back. This will definitely get a more in depth post at some point, but I am enjoying how lightweight and snappy it feels. I haven't noticed any adverse impact on game performance in the titles I've tried - which include Star Wars Jedi Survivor, Witcher 3, Dead Space Remake, and Hades 2. It's my first time really using an Arch-based distro as a daily driver, and the fact that most of the stuff I need can be installed right out of the Arch User Repository has made everything really easy. 
 
 # Refreshing the List
-I plan on continuing to evaluate additional options, and will keep an up to date list on what I currently use on my (About page)[../../about]. I also plan on making a post every year with any major changes or developments. 
+I plan on continuing to evaluate additional options, and will keep an up to date list on what I currently use on my [About page](../../about). I also plan on making a post every year with any major changes or developments. 
