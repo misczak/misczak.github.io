@@ -153,6 +153,3 @@ Through an extensive testing and monitoring process, I learned a few things and 
 * For accounts that routinely spin up large numbers of EC2 instances at the same time, make sure you review the current rate limits and quotas for the `DescribeInstances`, `CreateTags`, and `DescribeVolumes` API calls, as you can quickly hit the rate limit when large numbers of resources are created concurrently. 
 * Although this solution works great for newly created EC2 instances, it does nothing for instances that already exist. For those use cases, you're probably better off using something like [Mark Wolfe's excellent project](https://github.com/wolfeidau/aws-billing-store/) that automates pushing Cost and Usage report information into an Athena table.
 
-It is my hope that this post helps others fill in this gap in their own AWS security and compliance posture. I'm always happy to discuss this solution, especially ways it can be improved, if you wish to [reach out](../../contact).
-
-
