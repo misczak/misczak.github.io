@@ -7,6 +7,7 @@ pin: false
 tags:
   - homelab
 title: "Building Out The HomeLab: Proxmox and Tailscale"
+url: posts/building-out-the-homelab-proxmox-and-tailscale
 showTableOfContents: true
 ---
 
