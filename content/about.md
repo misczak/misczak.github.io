@@ -31,8 +31,8 @@ This is a breakdown of what I use for my personal computing at any given time. T
     * 1 TB SSD
 * Phone: iPhone 14 Pro
 * Email: Fastmail
-* Photos: Ente 
+* Photos: Immich 
 * Browser: Firefox on desktop, Safari on mobile
 * Files: Synology Drive and Dropbox
 * Search: Kagi
-* Notes: Obsidia
+* Notes: Obsidian
