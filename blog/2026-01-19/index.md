@@ -32,7 +32,7 @@ Before buying the Beelink, I had put some thought into what I wanted the host OS
 
 I downloaded the Proxmox 9.1 ISO, threw it onto a USB stick, booted the Beelink from it and installed it right onto the SSD, making sure to give it a static IP from my router during installation. 
 
-[![My Current Proxmox Dashboard ](images/proxmoxdashboard.png)](images/proxmoxbashboard.png)
+[![My Current Proxmox Dashboard ](images/proxmoxdashboard.png)](images/proxmoxdashboard.png)
 
 
 There are a couple of tweaks I had to make as a non-Enterprise user of Proxmox after install. These include disabling the enterprise repositories for package updates and adding ones that don't require a subscription. I made these changes myself in the Proxmox UI under **Updates > Repositories**, but I could also have grabbed a [Helper Script](https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install) that has been written to do all of this in an automated fashion. I also had to go into **Datacenter > Storage** and set up my second SSD for it to be usable and visible in the Proxmox UI. 
