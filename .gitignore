@@ -1,18 +1,20 @@
-# Hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
-/.hugo_build.lock
+# Dependencies
+/node_modules
 
-# OS
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
 .DS_Store
-Thumbs.db
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Editor
-.vscode/
-.idea/
-
-# Backup Files
-*.bak
-*.old
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
